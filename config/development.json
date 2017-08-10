@@ -1,0 +1,10 @@
+{
+  "dbURL": "mongodb://chatsikandar:chatsikandar@ds049466.mlab.com:49466/chatsikandar",
+  "sessionSecret": "ABMACGENIUS@&macgenius27",
+  "fb": {
+    "appID": "1325675680864518",
+    "appSecret": "8f3346e1cbfe2fe128d5daaef5b8ca7c",
+    "callbackURL": "http://localhost:3000/auth/facebook/callback"
+  },
+  "host":"http://localhost:3000"
+}

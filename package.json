@@ -1,0 +1,36 @@
+{
+  "name": "chatwithsikandar",
+  "version": "1.0.0",
+  "description": "macgenius27, herokuChatApp, AI, FireBase, LanguageAnalytics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macgenius27/sikandarChatAIFireBase.git"
+  },
+  "keywords": [
+    "API",
+    "FIREBASE",
+    "MACGENIUS27",
+    "ChatBot"
+  ],
+  "author": "macgenius27",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macgenius27/sikandarChatAIFireBase/issues"
+  },
+  "homepage": "https://github.com/macgenius27/sikandarChatAIFireBase#readme",
+  "dependencies": {
+    "connect-mongo": "^1.3.2",
+    "connect-session": "0.0.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "hogan-express": "^0.5.2",
+    "mongoose": "^4.11.6",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1"
+  }
+}
