@@ -57,7 +57,10 @@ app.route('/').get(function(req, res, next){
   res.render('index', {title: "Welcome to Chat App"});
 });
 */
-app.listen(3000, function(){
-  console.log("App is liesting on 3000");
-  console.log('Mode: '+ env);
-});
+app.set('port',process.env.PORT|| 3000);
+var server= require('http').createServer(app);
+var io= require('socket.io').listen(server);
+
+server.listen(app.get('port'), function(){
+  console.log('ChatSikandar on Port '+ app.get('port'));
+})
