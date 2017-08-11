@@ -49,7 +49,7 @@ John.save(function(err){
 });*/
 //app.use(session({secret:'SikandarCanTalk', saveUninitialized: true, resave: true}))
 require('./auth/passportAuth.js')(passport, FacebookStrategy, config, mongoose)
-require('./routes/routes.js')(express, app, passport)
+require('./routes/routes.js')(express, app, passport, config)
 
 /*
 app.route('/').get(function(req, res, next){
